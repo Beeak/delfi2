@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.upper--nav-bar {
+}
+
+.top--nav-bar-m {
+    background-color: var(--color-bg-color-2);
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.main--nav-bar-m {
+    height: 70px;
+}
+
+.t-nav--bar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.t-nav--weather {
+}
+
+.t-nav--center {
+}
+
+.t-nav--right {
+}
+
+:root {
+    --color-bg-color-1: #fff;
+    --color-bg-color-2: #edf2f4;
+    --color-bg-color-3: #e9f6ff;
+    --color-bg-color-4: #0f134b;
+    --color-bg-color-5: #ffff56;
+    --color-color-1: #3858f5;
+    --color-color-2: #3858f5;
+    --color-color-3: #edf2f4;
+    --color-color-4: #3858f5;
+    --color-grey-1: #708597;
+    --color-grey-2: #dedfe0;
+    --color-grey-3: #edf2f4;
+    --color-text-1: #050f19;
+    --color-text-2: #708597;
+    --color-text-3: #0f134b;
+    --color-link-1: #3858f5;
+    --color-link-2: #fa044f;
+    --color-bg-color-1-hover: #d3d3d3;
+    --color-bg-color-1-contrast: #3858f5;
+    --color-bg-color-2-hover: #c4c8ca;
+    --color-bg-color-2-contrast: #222;
+    --color-bg-color-3-hover: #c1ccd3;
+    --color-bg-color-3-contrast: #222;
+    --color-bg-color-4-hover: #3f426f;
+    --color-bg-color-4-contrast: #fff;
+    --color-bg-color-5-hover: #d3d34c;
+    --color-bg-color-5-contrast: #222;
+    --color-color-1-hover: #6079f7;
+    --color-color-1-contrast: #fff;
+    --color-color-2-hover: #6079f7;
+    --color-color-2-contrast: #fff;
+    --color-color-3-hover: #c4c8ca;
+    --color-color-3-contrast: #222;
+    --color-color-4-hover: #6079f7;
+    --color-color-4-contrast: #fff;
+    --color-grey-1-hover: #8d9dac;
+    --color-grey-1-contrast: #fff;
+    --color-grey-2-hover: #b8b9ba;
+    --color-grey-2-contrast: #222;
+    --color-grey-3-hover: #c4c8ca;
+    --color-grey-3-contrast: #222;
+    --color-text-1-hover: #373f47;
+    --color-text-1-contrast: #fff;
+    --color-text-2-hover: #8d9dac;
+    --color-text-2-contrast: #fff;
+    --color-text-3-hover: #3f426f;
+    --color-text-3-contrast: #fff;
+    --color-link-1-hover: #6079f7;
+    --color-link-1-contrast: #fff;
+    --color-link-2-hover: #fb3672;
+    --color-link-2-contrast: #fff;
+    --color-white: #fff;
+    --color-black: #222;
+    --color-total-package: #00d46e;
+    --color-total-package-hover: #00bb61;
+    --color-facebook: #4267b2;
+    --color-twitter: #1da1f2;
+    --color-instagram: #833ab4;
+    --color-content-marketing: #496170;
+    --color-error: #ffd9de;
+}
