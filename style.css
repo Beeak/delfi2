@@ -4,37 +4,119 @@
     box-sizing: border-box;
 }
 
-.upper--nav-bar {
-}
-
 .top--nav-bar-m {
+    display: flex;
     background-color: var(--color-bg-color-2);
     height: 30px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 35px;
     padding-right: 35px;
+    justify-content: center;
 }
 
 .main--nav-bar-m {
+    display: flex;
     height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    justify-content: center;
+}
+
+.m-nav--bar {
+    display: flex;
+    height: 100%;
+    width: 67%;
+    border-bottom: 1px solid var(--header-menu-top-color);
+    align-content: center;
+}
+
+.bottom--nav-bar {
+    height: 38px;
 }
 
 .t-nav--bar {
     display: flex;
-    width: 100%;
+    width: 67%;
     align-items: center;
     justify-content: space-between;
     height: 100%;
 }
 
-.t-nav--weather {
+.t-nav--left {
+    height: 100%;
+    margin-right: 160px;
 }
 
 .t-nav--center {
+    height: 100%;
 }
 
 .t-nav--right {
+    height: 100%;
+}
+
+.top-nav--text {
+    font-size: 11px;
+    font-family: var(--font-family-primary);
+    color: var(--header-menu-top-color);
+}
+
+.middle-right--menu {
+    display: flex;
+    height: 28px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.subscription--button {
+    color: var(--color-color-4-contrast);
+    background-color: var(--color-color-4);
+    width: auto;
+    font-weight: 600;
+    width: 79px;
+    height: auto;
+}
+
+.centered--text {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.centered {
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav--center {
+    margin: 30px;
+}
+
+.nav--right {
+    margin-left: 35px;
+}
+
+.delfi-logo {
+    height: auto            
+}
+
+.middle--text {
+    line-height: 13px;
+    font-family: var(--font-family-system);
+    color: var(--header-menu-primary-color);
+    font-size: 13px;
+    font-weight: 600;
+    margin: 24px 15px;
+    padding: 5px 10px;
+}
+
+.middle-center--choices {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 :root {
@@ -67,7 +149,7 @@
     --color-bg-color-5-contrast: #222;
     --color-color-1-hover: #6079f7;
     --color-color-1-contrast: #fff;
-    --color-color-2-hover: #6079f7;
+    --color-color-2-hover: #6079f--font-family-system7;
     --color-color-2-contrast: #fff;
     --color-color-3-hover: #c4c8ca;
     --color-color-3-contrast: #222;
@@ -98,4 +180,61 @@
     --color-instagram: #833ab4;
     --color-content-marketing: #496170;
     --color-error: #ffd9de;
+    --header-menu-top-color: var(--color-text-2);
+    --header-menu-primary-color: var(--color-black);
+    --header-menu-primary-text-transform: none;
+    --header-menu-primary-font-size: 13px;
+    --header-menu-separator-enabled: block;
+    --header-sitemap-footer-color: var(--color-grey-1);
+    --article-font-body-font-family: Roboto,sans-serif;
+    --article-font-body-font-size: 16px;
+    --article-font-body-font-weight: 400;
+    --article-font-lead-font-family: Roboto,sans-serif;
+    --article-font-lead-font-size: 16px;
+    --article-font-lead-font-weight: 700;
+    --font-family-system: Inter,sans-serif;
+    --font-family-primary: Inter,sans-serif;
+    --font-family-secondary: Roboto,sans-serif;
+    --text-type-1-font-size: 12px;
+    --text-type-1-font-weight: 700;
+    --text-type-2-font-size: 12px;
+    --text-type-2-font-weight: 500;
+    --text-type-3-font-size: 13px;
+    --text-type-3-font-weight: 400;
+    --h1-lg-font-size: 30px;
+    --h1-lg-font-weight: 600;
+    --h1-lg-line-height: 1.3;
+    --h1-sm-font-size: 20px;
+    --h1-sm-font-weight: 600;
+    --h1-sm-line-height: 1.3;
+    --h2-lg-font-size: 22px;
+    --h2-lg-font-weight: 600;
+    --h2-lg-line-height: 1.3;
+    --h2-sm-font-size: 19px;
+    --h2-sm-font-weight: 600;
+    --h2-sm-line-height: 1.3;
+    --h3-lg-font-size: 20px;
+    --h3-lg-font-weight: 600;
+    --h3-lg-line-height: 1.3;
+    --h3-sm-font-size: 18px;
+    --h3-sm-font-weight: 600;
+    --h3-sm-line-height: 1.3;
+    --h4-lg-font-size: 17px;
+    --h4-lg-font-weight: 600;
+    --h4-lg-line-height: 1.3;
+    --h4-sm-font-size: 17px;
+    --h4-sm-font-weight: 600;
+    --h4-sm-line-height: 1.3;
+    --h5-lg-font-size: 15px;
+    --h5-lg-font-weight: 600;
+    --h5-lg-line-height: 1.3;
+    --h5-sm-font-size: 15px;
+    --h5-sm-font-weight: 600;
+    --h5-sm-line-height: 1.3;
+    --h6-lg-font-size: 14px;
+    --h6-lg-font-weight: 600;
+    --h6-lg-line-height: 1.3;
+    --h6-sm-font-size: 15px;
+    --h6-sm-font-weight: 600;
+    --h6-sm-line-height: 1.3;
 }
