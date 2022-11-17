@@ -50,14 +50,6 @@
     margin-right: 160px;
 }
 
-.t-nav--center {
-    height: 100%;
-}
-
-.t-nav--right {
-    height: 100%;
-}
-
 .top-nav--text {
     font-size: 11px;
     font-family: var(--font-family-primary);
@@ -66,18 +58,57 @@
 
 .middle-right--menu {
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
     height: 28px;
-    align-items: center;
-    flex-direction: row;
+    width: auto;
+    align-self: center;
+    padding-left: 22px;
 }
 
 .subscription--button {
     color: var(--color-color-4-contrast);
     background-color: var(--color-color-4);
-    width: auto;
     font-weight: 600;
     width: 79px;
-    height: auto;
+    height: 28px;
+    align-items: center;
+    border-radius: 60px;
+}
+
+.login--button {
+    color: var(--color-bg-color-2-contrast);
+    background-color: var(--color-bg-color-2);
+    width: 79px;
+    height: 28px;
+    align-items: center;
+    border-radius: 60px;
+}
+
+.sub-button--text {
+    font-size: 12.5px;
+    font-family: var(--font-family-primary);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.login-button--text {
+    font-size: 12.5px;
+    font-family: var(--font-family-system);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu--breaker {
+    height: 24px;
+    width: 1px;
+    background-color: var(--header-menu-primary-color);
+    align-self: center;
+    margin-left: 6px;
 }
 
 .centered--text {
@@ -87,7 +118,9 @@
 }
 
 .centered {
+    display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: row;
 }
 
