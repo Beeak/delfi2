@@ -29,21 +29,33 @@
     display: flex;
     height: 100%;
     width: 67%;
-    border-bottom: 1px solid var(--header-menu-top-color);
+    border-bottom: 0.1px solid var(--header-menu-top-color);
     align-content: center;
 }
 
 .bottom--nav-bar-m {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: center;
     height: 38px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .b-nav--bar {
-    height: 23px;
-    width: 50%;
+    display: flex;
+    height: 100%;
+    height: 25px;
+    width: auto
+}
+
+.choices {
+    font-family: var(--font-family-system);
+    color: var(--color-text-2);
+    font-weight: 400;
+    font-size: 13px;
+    margin: 0px 15px;
+    padding: 5px 10px;
 }
 
 .t-nav--bar {
