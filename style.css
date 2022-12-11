@@ -204,10 +204,15 @@
     margin: auto;
 }
 
+.r-o-news--picture {
+    height: 314px;
+    width: 100%;
+}
+
 .f-row--one {
     display: flex;
     flex-direction: row;
-    width: auto;
+    width: 100%;
     height: 437px;
 }
 
@@ -223,43 +228,86 @@
     padding: 0px 12px;
 }
 
-.f-row--two {
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    height: 294px;
-}
-
-.f-row--three {
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    height: 335px;
-}
-
-.img {
-    object-fit: cover;
-    aspect-ratio: 16/9;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    padding: 0px 12px;
-}
-
-.r-o-news--picture {
-    height: 314px;
-    width: 100%;
-}
-
 .r-o-news--text {
     font-family: var(--font-family-primary);
     font-weight: var(--h1-lg-font-weight);
     line-height: var(--h1-lg-line-height);
     color: var(--color-text-1);
-    margin: 12px 0px;
+    margin: 14px 0px;
     word-break: break-word;
     font-size: var(--h2-lg-font-size);
+    width: 100%;
+    height: auto;
 }
+
+.f-row--two {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 294px;
+}
+
+.frt-news {
+    width: 306px;
+    height: 294px;
+    padding: 0px 12px;
+}
+
+.r-t-news--text {
+    font-family: var(--font-family-primary);
+    font-weight: var(--h1-lg-font-weight);
+    line-height: var(--h1-lg-line-height);
+    color: var(--color-text-1);
+    margin: 10px 0px;
+    word-break: break-word;
+    font-size: var(--h4-lg-font-size);
+    width: 100%;
+    height: auto;
+}
+
+.r-t-news--picture {
+    height: 166px;
+    width: 100%;
+}
+
+.f-row--three {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 335px;
+}
+
+.frth-news {
+    width: 408px;
+    height: 354px;
+    padding: 0px 12px;
+}
+
+.r-th-news--picture {
+    height: 210px;
+    width: 100%;
+}
+
+.r-th-news--text {
+    font-family: var(--font-family-primary);
+    font-weight: var(--h1-lg-font-weight);
+    line-height: var(--h1-lg-line-height);
+    color: var(--color-text-1);
+    margin: 10px 0px;
+    word-break: break-word;
+    font-size: var(--h4-lg-font-size);
+    width: 100%;
+    height: auto;
+}
+
+img {
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 :root {
     --color-bg-color-1: #fff;
